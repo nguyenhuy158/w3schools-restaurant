@@ -49,6 +49,12 @@ html {
     color: inherit;
 }
 
+@media screen and (max-width: 720px) {
+  .navigation > ul {
+    display: none;
+  }
+}
+
 /* main image */
 .main-image {
     position: relative;
